@@ -1,4 +1,4 @@
-# CFML oAuth 2 Component
+# Standalone CFML oAuth 2 Component
 
 A ColdFusion CFC to manage authentication using the OAuth2 protocol.
 
