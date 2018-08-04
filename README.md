@@ -1,6 +1,8 @@
 # CFML oAuth 2 Component
 
-This is a modified version of Matt McGifford's oAuth lib from [OAuth2 CFC](https://github.com/coldfumonkeh/oauth2/downloads)
+A ColdFusion CFC to manage authentication using the OAuth2 protocol.
+
+```This is a modified version of Matt McGifford's oAuth lib from [OAuth2 CFC](https://github.com/coldfumonkeh/oauth2/downloads)```
 
 A standalone oAuth2 component that should be included in other projects.
 
