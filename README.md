@@ -6,7 +6,8 @@ A ColdFusion CFC to manage authentication using the OAuth2 protocol.
 
 A standalone oAuth2 component that should be included in other projects. 
 
-* There are no provider libraries in this repo. The oAuth config for each service is inside that library.
+* There are no provider libraries in this repo. 
+* The oAuth config for each service is inside that library.
 
 ------
 
