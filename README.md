@@ -45,11 +45,11 @@ Instantiation for the provider components is the same as the core, although you 
 
 ### Adding to the providers
 
-You can easily create your own additional providers. If you do, please make a pull request to add them back into the main repository for others to benefit.
+You can easily create your own additional providers. If you do, please make a pull request to add them back into the Matts' repository for others to benefit,we've included providers into our other libraries for those providers.
 
 To do so, take a look at one of the existing provider components. These extend the core and will always need their own `init`, `buildRedirectToAuthURL` and `makeAccessTokenRequest` methods to make sure the correct required values are sent through to the providers API.
 
-#### Instantiation
+#### Provider Instanciation
 
 ```
 var oLinkedIn = new providers.linkedIn(
@@ -61,12 +61,21 @@ var oLinkedIn = new providers.linkedIn(
 
 Testing
 ----------------
-The component has been tested on Adobe ColdFusion 9 and 10 and Lucee 4.5.
+The component has been tested on Adobe ColdFusion 9 and 10 and Lucee 4.5 and 5.2
 
 
 Download
 ----------------
 
+### 1.0 - 4 Aug 2018
+
+Separated all providers out of the original library so this repo can be included as a remote repo in projects without pollution.
+- Forked core component
+- Forked testbox tests from original repo
+
+
+Matt's versions:
+----------------
 
 ### 1.1.0 - July 26, 2017
 
