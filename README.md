@@ -4,19 +4,13 @@ A ColdFusion CFC to manage authentication using the OAuth2 protocol.
 
 ```This is a modified version of Matt McGifford's oAuth lib from [OAuth2 CFC](https://github.com/coldfumonkeh/oauth2/downloads)```
 
-A standalone oAuth2 component that should be included in other projects.
+A standalone oAuth2 component that should be included in other projects. 
 
-There are no provider libraries in this repo, these can be found in each of the service components in our library.
+* There are no provider libraries in this repo. The oAuth config for each service is inside that library.
 
 ------
 
-# oauth2
-
-A ColdFusion CFC to manage authentication using the OAuth2 protocol.
-
-## Base Component
-
-The core component, `oauth2.cfc`, can be used as a standalone OAuth2 tool for most providers.
+The core component, `oauth2.cfc`, can be used as a standalone OAuth2 tool for most providers. That's exactly what this repo is for.
 
 Instantiate the component and pass in the required properties like so:
 
